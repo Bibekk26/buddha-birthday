@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddha Birthday Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card" id="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <h1>Happy Buddha's Birthday</h1>
+                <img src="https://m.media-amazon.com/images/I/71TTM8oR1GS._AC_UF1000,1000_QL80_.jpg" alt="Buddha Image" class="buddha-image">
+            </div>
+            <div class="card-back">
+                <p class="message">May the teachings of Buddha guide you and bring peace to your life. Wishing you a joyous and peaceful day!</p>
+                <button class="reveal-message-button" onclick="revealMessage()">Reveal Message</button>
+                <p class="hidden-message" id="hiddenMessage">May you be filled with love, compassion, and wisdom on this special day!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="balloons">
+        <div class="balloon" style="background-color: #FF69B4;"></div>
+        <div class="balloon" style="background-color: #FFD700;"></div>
+        <div class="balloon" style="background-color: #FF4500;"></div>
+    </div>
+    <div class="crackers">
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
